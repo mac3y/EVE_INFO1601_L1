@@ -8,50 +8,66 @@
     <link rel="stylesheet" href="style.css">
   </head>
   <body>
-        <header>
-            <h1>This is my first website</h2>
-        </header>
-      <p hidden="true">This is so cool</p>
+    <header>
+        <h1>This is my first website</h1>
+    </header>
+    <p hidden>This is so cool</p>
      
-        <article>
-            <section>
-                <p>Welcome</p>
-            </section>
+    <article>
+    <section>
+        <p>Welcome</p>
+    </section>
 
-            <section>
-                <figure>
-                    <img src="https://lorempixel.com/200/200/cats" alt="a random cat">
-                    <figcaption>Fig 1. A random cat</figcaption>
-                </figure>
-           </section>
+    <section>
+    <figure>
+        <img src="https://i.postimg.cc/3wtyMmnx/Understanding-GI-Stasis-in-Rabbits-Essential-Care-Tips.jpg" alt="Random Bunnies">
+        <figcaption>Fig 1. Random Bunnies</figcaption>
+    </figure>
+    </section>
 
+    <section>
+        <h3>Hobbies</h3>
+        <ul>
+        <li>Swimming</li>
+        <li>Coding</li>
+        <li>Music</li>
+        <li>Memeing</li>
+        </ul>
+    </section>
 
+    <dialog id="mydialog">
+        This is a dialog
+    <a href="javascript:mydialog.removeAttribute('open')">close</a>
+    </dialog>
 
+    <a href="javascript:document.querySelector('#mydialog').setAttribute('open', true)">
+        Open Dialog
+    </a>
      
-            <section>
-                <b>bold</b> <br>
-                <strong>Strong text</strong><br>
-                <mark>highlighted text</mark> <br>
-                <u>underlined</u> <br>
-                <s>strikethrough</s>
-                Text<sub>subscript</sub><br>
-                Text<sup>superscript</sup><br>
+    <section>
+    <b>bold</b> <br>
+       <strong>Strong text</strong><br>
+       <mark>highlighted text</mark> <br>
+       <u>underlined</u> <br>
+       <s>strikethrough</s>
+       Text<sub>subscript</sub><br>
+       Text<sup>superscript</sup><br>
         
-            </section>
+    </section>
 
-            <section>
-                <code>code</code><br>
-                <samp>Sample output from a computer program</samp><br>
-                <kbd>Keyboard input</kbd>
-            </section>
+    <section>
+        <code>code</code><br>
+        <samp>Sample output from a computer program</samp><br>
+        <kbd>Keyboard input</kbd>
+    </section>
 
-            <section>
-                <em>Emphasized text</em><br>
-                <var>variable x</var><br>
-                <cite>citation</cite><br>
-                <dfn>definition</dfn>
-            </section>
-        </article>
+    <section>
+        <em>Emphasized text</em><br>
+        <var>variable x</var><br>
+        <cite>citation</cite><br>
+        <dfn>definition</dfn>
+    </section>
+    </article>
     <h1>HTML</h1>
     <p>HTML is a language for describing web pages</p>
 
@@ -70,13 +86,33 @@
     <h1>About WWF</h1>
     <p>Here is a quote from WWF's website</p>
 
-    <blockquote
-    cite="https://www.worldwildlife.org/who/index.>html">
-    For 50 years, WWF has been protecting the future of natture. The worlld's leading
+    <blockquote cite="https://www.worldwildlife.org/who/index.html">
+    For 50 years, WWF has been protecting the future of nature. The world's leading
     conservation organizations, WWF works in 100 countries and is supported by 1.2 million
     members in the United States and close to 5 million globally.
     </blockquote>
 
+    <p>An ordered list:</p>
+    <ol>
+        <li>Coffee</li>
+        <li>Tea</li>
+        <li>Milk</li>
+    </ol>
+
+    <p>An unordered list:</p>
+    <ul>
+        <li>Coffee</li>
+        <li>Tea</li>
+        <li>Milk</li>
+    </ul>
+
+    <p>A description list:</p>
+    <dl>
+        <dt>Coffee</dt>
+        <dt>Black hot drink</dt>
+        <dt>Milk</dt>
+        <dd>White cold drink</dd>
+    </dl>
 
   </body>
 <html>
